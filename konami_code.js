@@ -19,15 +19,12 @@ function init() {
   function code(event){
       if(event.key === codes[index]) {
         index++;
-        console.log(index);
-        console.log(event.which);
         if(index === codes.length) {
           alert('Yipee!');
           index = 0;
         }
       } else {
           index = 0;
-          console.log(index);
         }
   }
 }
