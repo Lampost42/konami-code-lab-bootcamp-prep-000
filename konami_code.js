@@ -10,6 +10,7 @@ const codes = [
     "b",
     "a"
   ];
+var index = 0;
 function init() {
 
   const body = document.querySelector('body')
