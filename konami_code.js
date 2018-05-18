@@ -24,10 +24,10 @@ function init() {
         if(index === codes.length) {
           alert('Yipee!');
           index = 0;
-        } else {
+        }
+      } else {
           index = 0;
           console.log(index);
         }
-      }
   }
 }
